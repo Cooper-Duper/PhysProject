@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "../constants.h"
 
 int main(void) {
-    puts("Hello, world!");
+    printf("%.10f\n", PI);
     return 0;
 }
