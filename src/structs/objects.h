@@ -1,7 +1,9 @@
 #include "types.h"
 
-typedef struct collisionObject {
-    PhysVector gravAccel;
-    PhysVector netForce;
-    Collider* collider;
-}
+typedef struct Obj {
+    float mass;
+    float coeffFriction;
+    PhysVec gravAccel;
+    PhysVec netForce;
+    //Collider* collider;
+} PhysObj;

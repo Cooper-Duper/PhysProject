@@ -13,9 +13,11 @@ PhysVec add(PhysVec a, PhysVec b) {
 
 //Subtracts two physics vectors and returns the value
 PhysVec subtract(PhysVec a, PhysVec b) {
+    PhysVec out;
     out.x = a.x - b.x;
     out.y = a.y - b.y;
     out.z = a.z - b.z;
 
     return out;
 }
+
